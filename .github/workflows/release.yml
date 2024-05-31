@@ -1,0 +1,40 @@
+name: Publish and Release
+
+on:
+  push:
+    branches:
+      - main
+
+concurrency: ${{ github.workflow }}-${{ github.ref }}
+
+env:
+  NODE_VERSION: 20
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    name: Publish and Release
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          # CHANGELOG の差分を適切に生成するため明示的にすべての履歴を取得
+          fetch-depth: 0
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          registry-url: https://npm.pkg.github.com
+          cache: npm
+      - name: Prepare
+        run: |
+          npm install
+          npm test
+      - name: Create Release PullRequest or Publish
+        uses: changesets/action@v1
+        with:
+          publish: npm run release-packages
+          version: npm run version-packages
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_AUTH: ${{ secrets.GITHUB_TOKEN }}
