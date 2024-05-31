@@ -10,5 +10,8 @@
   },
   "files": [
     "index.js"
-  ]
+  ],
+  "devDependencies": {
+    "typescript": "4.9.5"
+  }
 }
