@@ -28,7 +28,7 @@ jobs:
           cache: npm
       - name: Prepare
         run: |
-          npm install
+          npm install --no-optional
           npm test
       - name: Create Release PullRequest or Publish
         uses: changesets/action@v1
