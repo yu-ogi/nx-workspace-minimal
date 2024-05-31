@@ -13,7 +13,11 @@ env:
 jobs:
   release:
     runs-on: ubuntu-latest
-    permissions: write-all
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
+      packages: write
     name: Publish and Release
     steps:
       - name: Checkout code
