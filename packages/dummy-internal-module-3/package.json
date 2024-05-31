@@ -1,0 +1,14 @@
+{
+  "name": "@yu-ogi/dummy-internal-module-3",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "index.js"
+  ]
+}
