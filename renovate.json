@@ -4,6 +4,9 @@
     "config:recommended"
   ],
   "automerge": true,
-  "gitIgnoredAuthors": ["41898282+github-actions[bot]@users.noreply.github.com"],
+  "gitIgnoredAuthors": [
+    "41898282+github-actions[bot]@users.noreply.github.com",
+    "yusuke_ogiwara@dwango.co.jp"
+  ],
   "labels": ["release"]
 }
