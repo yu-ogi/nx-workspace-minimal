@@ -26,6 +26,8 @@ jobs:
           node-version: ${{ env.NODE_VERSION }}
           cache: npm
       - name: Run changesets-renovate
+        env:
+          GH_TOKEN: ${{ secrets.PAT }}
         run: |
           git config user.name 'github-actions'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
