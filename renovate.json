@@ -4,5 +4,6 @@
     "config:recommended"
   ],
   "automerge": true,
-  "gitIgnoredAuthors": ["github-actions"]
+  "gitIgnoredAuthors": ["41898282+github-actions[bot]@users.noreply.github.com"],
+  "labels": ["release"]
 }

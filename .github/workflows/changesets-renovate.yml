@@ -13,7 +13,7 @@ env:
 jobs:
   generate-changeset:
     runs-on: ubuntu-latest
-    if: github.actor == 'renovate[bot]' && github.repository == 'yu-ogi/nx-workspace-minimal'
+    if: github.actor == 'renovate[bot]' && github.repository == 'yu-ogi/nx-workspace-minimal' && contains(github.event.pull_request.labels.*.name, 'release')
     steps:
       - name: Checkout
         uses: actions/checkout@v4
