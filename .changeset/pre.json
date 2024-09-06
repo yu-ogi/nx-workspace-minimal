@@ -2,9 +2,9 @@
   "mode": "exit",
   "tag": "beta",
   "initialVersions": {
-    "@yu-ogi/dummy-internal-module-1": "0.1.5",
-    "@yu-ogi/dummy-internal-module-2": "0.1.1",
-    "@yu-ogi/dummy-internal-module-3": "0.1.1"
+    "@yu-ogi/dummy-internal-module-1": "0.1.6-beta.0",
+    "@yu-ogi/dummy-internal-module-2": "0.1.2-beta.0",
+    "@yu-ogi/dummy-internal-module-3": "0.1.2-beta.0"
   },
   "changesets": [
     "happy-lies-wink",
