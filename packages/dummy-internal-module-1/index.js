@@ -1,1 +1,1 @@
-export default n => n * 2 + 4;
+export default n => n * 2 + 4 - 5;
