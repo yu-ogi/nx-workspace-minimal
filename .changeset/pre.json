@@ -6,5 +6,7 @@
     "@yu-ogi/dummy-internal-module-2": "0.1.1",
     "@yu-ogi/dummy-internal-module-3": "0.1.1"
   },
-  "changesets": []
+  "changesets": [
+    "happy-lies-wink"
+  ]
 }
