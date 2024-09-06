@@ -21,7 +21,11 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
           cache: npm
+          registry-url: https://npm.pkg.github.com/
+          scope: "@yu-ogi"
       - name: Run test
         run: |
           npm ci
           npm test
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}

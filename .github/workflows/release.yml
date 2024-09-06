@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - prerelease
 
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
@@ -31,10 +32,13 @@ jobs:
           node-version: ${{ env.NODE_VERSION }}
           registry-url: https://npm.pkg.github.com
           cache: npm
+          scope: "@yu-ogi"
       - name: Prepare
         run: |
           npm ci
           npm test
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
       - name: Create Release PullRequest or Publish
         uses: changesets/action@v1
         with:
