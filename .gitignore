@@ -1,6 +1,7 @@
 node_modules/
 lib/
-.nx/cache
+/.nx-cache
+/.nx
 
 *.log
 *.tgz
