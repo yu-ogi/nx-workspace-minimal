@@ -1,6 +1,6 @@
 {
   "name": "@yu-ogi/dummy-internal-module-2",
-  "version": "0.1.2-beta.0",
+  "version": "0.1.3-beta.0",
   "type": "module",
   "main": "index.js",
   "author": "",
