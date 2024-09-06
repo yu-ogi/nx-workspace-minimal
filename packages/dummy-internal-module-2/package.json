@@ -10,5 +10,8 @@
   },
   "files": [
     "index.js"
-  ]
+  ],
+  "dependencies": {
+    "@yu-ogi/dummy-internal-module-1": "^0.1.6-beta.0"
+  }
 }
