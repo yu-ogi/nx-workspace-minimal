@@ -23,6 +23,5 @@ jobs:
           cache: npm
       - name: Run test
         run: |
-          rm package-lock.json
-          npm install
+          npm ci
           npm test

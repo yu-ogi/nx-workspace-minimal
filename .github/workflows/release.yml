@@ -33,8 +33,7 @@ jobs:
           cache: npm
       - name: Prepare
         run: |
-          rm package-lock.json
-          npm install
+          npm ci
           npm test
       - name: Create Release PullRequest or Publish
         uses: changesets/action@v1
