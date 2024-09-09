@@ -1,5 +1,11 @@
 # @yu-ogi/dummy-internal-module-1
 
+## 0.1.8
+
+### Patch Changes
+
+- [#56](https://github.com/yu-ogi/nx-workspace-minimal/pull/56) [`cfc0f85`](https://github.com/yu-ogi/nx-workspace-minimal/commit/cfc0f85c03a4b808f65b6803c2ea29301ce59186) Thanks [@yu-ogi](https://github.com/yu-ogi)! - Fix code
+
 ## 0.1.7
 
 ### Patch Changes
