@@ -1,5 +1,12 @@
 # @yu-ogi/dummy-internal-module-2
 
+## 0.1.4-beta.0
+
+### Patch Changes
+
+- Updated dependencies [[`a250618`](https://github.com/yu-ogi/nx-workspace-minimal/commit/a2506188855a38f2481117285ec0cb40eb458825)]:
+  - @yu-ogi/dummy-internal-module-1@0.2.0-beta.0
+
 ## 0.1.3
 
 ### Patch Changes

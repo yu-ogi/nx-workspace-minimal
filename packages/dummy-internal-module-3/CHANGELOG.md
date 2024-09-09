@@ -1,5 +1,12 @@
 # @yu-ogi/dummy-internal-module-3
 
+## 0.1.4-beta.0
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @yu-ogi/dummy-internal-module-2@0.1.4-beta.0
+
 ## 0.1.3
 
 ### Patch Changes
