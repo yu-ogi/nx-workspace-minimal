@@ -7,6 +7,7 @@
     "@yu-ogi/dummy-internal-module-3": "0.1.3"
   },
   "changesets": [
-    "late-carpets-eat"
+    "late-carpets-eat",
+    "six-chicken-tap"
   ]
 }
