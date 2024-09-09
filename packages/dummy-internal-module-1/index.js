@@ -1,3 +1,3 @@
 // add a comment...
 const x = 10;
-export default n => n * 2 + 4 - 5 + x;
+export default n => n * 2 + x;
