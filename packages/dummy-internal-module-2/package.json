@@ -12,6 +12,6 @@
     "index.js"
   ],
   "dependencies": {
-    "@yu-ogi/dummy-internal-module-1": "^0.1.7"
+    "@yu-ogi/dummy-internal-module-1": "0.1.7"
   }
 }
