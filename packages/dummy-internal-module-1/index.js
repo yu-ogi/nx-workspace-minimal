@@ -1,2 +1,3 @@
 // add a comment...
-export default n => n * 2 + 4 - 5 + 1;
+const x = 10;
+export default n => n * 2 + x;
