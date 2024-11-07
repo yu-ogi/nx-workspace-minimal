@@ -1,5 +1,11 @@
 # @yu-ogi/dummy-internal-module-1
 
+## 0.2.1
+
+### Patch Changes
+
+- [#64](https://github.com/yu-ogi/nx-workspace-minimal/pull/64) [`a93f201`](https://github.com/yu-ogi/nx-workspace-minimal/commit/a93f201033e7afcb40d3b296b2b25baa9cafec74) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `typescript` to `5.6.3`.
+
 ## 0.2.0
 
 ### Minor Changes
