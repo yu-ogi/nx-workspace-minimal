@@ -1,3 +1,4 @@
 // add a comment...
-const x = 10;
+const x = 15;
+
 export default n => n * 2 + x;
