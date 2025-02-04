@@ -1,5 +1,16 @@
 # @yu-ogi/dummy-internal-module-3
 
+## 0.3.0-next.0
+
+### Minor Changes
+
+- [#99](https://github.com/yu-ogi/nx-workspace-minimal/pull/99) [`c34f212`](https://github.com/yu-ogi/nx-workspace-minimal/commit/c34f212e8b74a7da4cf5d935f2cc9699221ae42c) Thanks [@yu-ogi](https://github.com/yu-ogi)! - release 0.3.0
+
+### Patch Changes
+
+- Updated dependencies [[`c34f212`](https://github.com/yu-ogi/nx-workspace-minimal/commit/c34f212e8b74a7da4cf5d935f2cc9699221ae42c)]:
+  - @yu-ogi/dummy-internal-module-2@0.3.0-next.0
+
 ## 0.2.1
 
 ### Patch Changes
